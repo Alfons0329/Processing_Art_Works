@@ -208,7 +208,7 @@ void draw()
     case(56):{stroke(#FF00FF); arc(250,250,clockRadius*1.4,clockRadius*1.4,-HALF_PI,min_in_rad); break;}
     case(57):{stroke(#FF3EFF); arc(250,250,clockRadius*1.4,clockRadius*1.4,-HALF_PI,min_in_rad); break;}
     case(58):{stroke(#FF77FF); arc(250,250,clockRadius*1.4,clockRadius*1.4,-HALF_PI,min_in_rad); break;}
-    case(59):{clear(); break;}
+    case(59):{stroke(#FFB3FF); arc(250,250,clockRadius*1.6,clockRadius*1.6,-HALF_PI,sec_in_rad); break;}
   }
   
   //3.---------Hours in window
